@@ -90,7 +90,7 @@ int main(int argc, char **argv) {
     int num_threads = 1;
 
     int c;
-    while (-1 != (c = getopt(argc, argv, "hp:"))) {
+    while (-1 != (c = getopt(argc, argv, "hp:t:"))) {
         switch(c) {
             case 'p':
                 port = atoi(optarg);
